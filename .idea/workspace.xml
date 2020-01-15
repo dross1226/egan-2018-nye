@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="074231d5-4630-42bd-831f-c468360cb58d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/public/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="074231d5-4630-42bd-831f-c468360cb58d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579065417537</updated>
-      <workItem from="1579065421738" duration="1417000" />
+      <workItem from="1579065421738" duration="2043000" />
     </task>
     <servers />
   </component>
