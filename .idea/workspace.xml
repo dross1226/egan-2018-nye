@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074231d5-4630-42bd-831f-c468360cb58d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,10 +69,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="456" y="258" width="667" height="488" key="find.popup" timestamp="1579068531621">
+    <state x="523" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579069495006">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="523" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.949@0.23.1680.949" timestamp="1579069495006" />
+    <state x="456" y="258" width="667" height="488" key="find.popup" timestamp="1579069346114">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="456" y="258" width="667" height="486" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1579065534419" />
-    <state x="456" y="258" width="667" height="488" key="find.popup/0.23.1680.949@0.23.1680.949" timestamp="1579068531621" />
+    <state x="456" y="258" width="667" height="488" key="find.popup/0.23.1680.949@0.23.1680.949" timestamp="1579069346114" />
+    <state x="455" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1579070246589">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="455" y="235" width="670" height="676" key="search.everywhere.popup/0.23.1680.949@0.23.1680.949" timestamp="1579070246589" />
   </component>
 </project>
