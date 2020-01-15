@@ -415,6 +415,7 @@ body {
 
 html {
     background-color: #49DDFD;
+    background-image: linear-gradient(red, yellow);
     color: #1c429b;
     font-family: "GintoNordTrial-Regular",
         Helvica-Neue,
