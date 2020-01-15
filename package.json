@@ -1,7 +1,6 @@
 {
   "name": "2018-nye-ben",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "build": "rimraf dist/ && babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "nodemon dist/app.js",
@@ -20,7 +19,7 @@
     "http": "^0.0.0",
     "morgan": "^1.9.1",
     "parcel-bundler": "^1.11.0",
-    "socket.io": "0.9.16"
+    "socket.io": "2.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

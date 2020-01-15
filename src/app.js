@@ -16,7 +16,8 @@ const whitelist = [
     'http://128.0.0.8:1234',
     'http://localhost:1234',
     'http://localhost',
-    'http://egan.house'
+    'http://egan.house',
+    'http://lol.wine'
 ];
 const corsOptions = {
     origin: function (origin, callback) {

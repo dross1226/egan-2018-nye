@@ -33,11 +33,21 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var app = (0, _express2.default)();
 app.server = _http2.default.createServer(app);
 
-var io = (0, _socket2.default)(app.server);
+// Adding socket.io to the Experss server
+var io = _socket2.default.listen(app.server);
 
+var whitelist = ['http://128.0.0.8:1234', 'http://localhost:1234', 'http://localhost', 'http://egan.house', 'http://lol.wine'];
+var corsOptions = {
+    origin: function origin(_origin, callback) {
+        var originIsWhitelisted = whitelist.indexOf(_origin) !== -1;
+        callback(null, originIsWhitelisted);
+    },
+    credentials: true
+};
+app.use((0, _cors2.default)(corsOptions));
+
+// Basic setup for the server
 app.use((0, _morgan2.default)('dev'));
-
-app.use((0, _cors2.default)());
 app.use(_bodyParser2.default.json());
 
 app.use(_express2.default.static(__dirname + '/public'));
@@ -46,10 +56,23 @@ app.get('/', function (req, res) {
     res.sendFile(_path2.default.join(__dirname, '/public/index.html'));
 });
 
-io.on('connection', function (socket) {
+// We list the connected sockets, then list functions inside this fn to define protocols
+io.sockets.on('connection', function (socket) {
+
+    // Maybe should define some logic to ask a user to input their user name
+
+    // the first string is the protocol passed from the client socket
+    socket.on('submitPacket', function (formData) {
+        console.log('nickname: ' + formData.nickname);
+        console.log('message: ' + formData.message);
+        socket.broadcast.emit('someoneSubmittedSomething', formData);
+        socket.emit('someoneSubmittedSomething', formData);
+    });
+
     console.log('a user connected');
 });
 
-app.server.listen(process.env.PORT || 1234, function () {
+// Finally, listen to the process to start the server
+app.server.listen(process.env.PORT || 80, function () {
     console.log('Started on port ' + app.server.address().port);
 });
