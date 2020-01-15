@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074231d5-4630-42bd-831f-c468360cb58d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/img/jclub.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public/img" />
+    </key>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -85,10 +93,10 @@
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="523" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.949@0.23.1680.949" timestamp="1579069495006" />
-    <state x="456" y="258" width="667" height="488" key="find.popup" timestamp="1579071473710">
-      <screen x="0" y="23" width="1680" height="949" />
+    <state x="456" y="258" width="667" height="486" key="find.popup" timestamp="1579110986562">
+      <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="456" y="258" width="667" height="486" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1579065534419" />
+    <state x="456" y="258" width="667" height="486" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1579110986562" />
     <state x="456" y="258" width="667" height="488" key="find.popup/0.23.1680.949@0.23.1680.949" timestamp="1579071473710" />
     <state x="455" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1579071324111">
       <screen x="0" y="23" width="1680" height="949" />
