@@ -1,10 +1,32 @@
-import http from 'http';
-import express from 'express';
-import morgan from 'morgan';
-import bodyParser from 'body-parser';
-import cors from 'cors';
-import path from 'path';
-import socketIO from 'socket.io';
+'use strict';
+
+var _http = require('http');
+
+var _http2 = _interopRequireDefault(_http);
+
+var _express = require('express');
+
+var _express2 = _interopRequireDefault(_express);
+
+var _morgan = require('morgan');
+
+var _morgan2 = _interopRequireDefault(_morgan);
+
+var _bodyParser = require('body-parser');
+
+var _bodyParser2 = _interopRequireDefault(_bodyParser);
+
+var _cors = require('cors');
+
+var _cors2 = _interopRequireDefault(_cors);
+
+var _path = require('path');
+
+var _path2 = _interopRequireDefault(_path);
+
+var _socket = require('socket.io');
+
+var _socket2 = _interopRequireDefault(_socket);
 
 const app = express();
 app.server = http.createServer(app);
