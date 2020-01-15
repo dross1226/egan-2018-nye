@@ -1,5 +1,13 @@
 'use strict';
 
+var express = require('express');
+var http = require('http');
+var morgan = require('morgan');
+var bodyParser = require('bodyParser');
+var cors = require('cors');
+var path = require('path');
+var socketIO = require('socket.io');
+
 const app = express();
 app.server = http.createServer(app);
 
