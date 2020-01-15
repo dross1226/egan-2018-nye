@@ -4,7 +4,6 @@
   "scripts": {
     "build": "rimraf dist/ && babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "start": "nodemon dist/app.js",
-    "prestart": "yarn run -s build",
     "dev": "nodemon --watch src --exec babel-node src/app.js",
     "serve": "node ./src/bundle.js run && parcel ./src/public/index.html"
   },
